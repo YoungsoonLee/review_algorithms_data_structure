@@ -29,4 +29,8 @@ Base on Divide and Conquer.
 >	3. Combine by merging the two sorted subarrays back into the single sorted subarray array[p..r]  
 
 >	- condition of exit: p < r  
->	- Time complexity : O(NlogN)
+>	- need to more memory  
+
+
+	Time complexity : O(NlogN)  
+
