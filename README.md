@@ -55,7 +55,8 @@ Base on Divide and Conquer.
 > ##### directed Graph (directed acyclic graph)
 >> ![image#4](./img/directed.png)  
 
-> presentation Graph
+> ##### presentation Graph
+>> 3 ways : 연결선 리스트, 인접 행렬, 인접 리스트  
 >> 인접 리스트  
 >> ![image#5](./img/pre_graph.png) ![image#6](./img/pre_graph2.png)  
 
