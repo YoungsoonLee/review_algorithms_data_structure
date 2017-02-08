@@ -45,4 +45,18 @@ Base on Divide and Conquer.
 
 	Time complexity : O(NlogN)  , Worst N^2  
 
+### 6. Graph
+> from Khan Academy
+> ##### Graph
+>> ![image#1](./img/graph.png)  
+>> ![image#2](./img/explain.png)  
+> ##### weighted Graph  
+>> ![image#3](./img/weight_g.png)  
+> ##### directed Graph (directed acyclic graph)
+>> ![image#4](./img/directed.png)  
+
+> presentation Graph
+>> 인접 리스트  
+>> ![image#5](./img/pre_graph.png) ![image#6](./img/pre_graph2.png)  
+
 
