@@ -35,3 +35,14 @@ Base on Divide and Conquer.
 	Time complexity : O(NlogN)  
 
 
+### 5. Quick Sort
+Base on Divide and Conquer.
+> merge sort은 분할 단계에서 거의 아무 것도 하지 않고, 모든 중요한 작업은 결합 단계에서 일어나는 반면, quick sort는 반대로, 모든 중요한 작업은 분할 단계에서 일어난다.
+
+> 1. Divide: Pivot , Partitioning ( less than pivot is to left)  
+> 2. Conquer: recursively sorting the subarrays array base on pivot  
+> 3. Combine: doing nothing  
+
+	Time complexity : O(NlogN)  , Worst N^2  
+
+
