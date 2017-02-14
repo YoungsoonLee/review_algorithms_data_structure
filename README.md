@@ -92,7 +92,10 @@ Base on Divide and Conquer.
 
 	Time complexity: O(dn). d is maximum value of n  
 
-### 
+### Linked List  
+Data Structure 
+
+
 
 
 
