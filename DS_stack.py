@@ -36,7 +36,7 @@ class Stack():
 
 if __name__ == '__main__':
 	st = Stack(10)
-	st.push(1)
+	st.push(1)	
 	st.push(2)
 	st.push(3)
 	st.push(4)
@@ -46,9 +46,11 @@ if __name__ == '__main__':
 	st.push(8)
 	st.push(9)
 	st.push(10)
-	# st.push(11)
+	
+	# st.push(11) # error
 	print(st)
-	print(st.top)
+	# print(st.top)
+	
 	st.pop()
 	st.pop()
 	st.pop()
@@ -60,7 +62,8 @@ if __name__ == '__main__':
 	st.pop()
 	st.pop()
 
-	st.pop() # error 
+	# st.pop() # error 
 
 	print(st)
 	print(st.top)
+	
