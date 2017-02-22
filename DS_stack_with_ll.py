@@ -26,12 +26,15 @@ class Stack():
 	def pop(self):
 		cur = self.top
 		pre = None
-		while cur.next:
-			pre = cur
-			cur = cur.next
-		value = cur
-		pre.next = None
-		return value
+		if cur is None:
+			raise str('stack is empty.')
+		else:
+			while cur.next:
+				pre = cur
+				cur = cur.next
+			value = cur
+			pre.next = None
+			return value
 
 	def getTopIndex(self):
 		cur = self.top
