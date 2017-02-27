@@ -16,6 +16,7 @@ class Stack():
 			raise str('stack is empty')
 		else:
 			result = self.data[self.top-1]
+			# you can use del function too.
 			self.data[self.top-1] = None
 			self.top -= 1
 			return result
@@ -60,7 +61,7 @@ if __name__ == '__main__':
 	st.pop()
 	st.pop()
 	st.pop()
-	st.pop()
+	# st.pop()
 
 	# st.pop() # error 
 
